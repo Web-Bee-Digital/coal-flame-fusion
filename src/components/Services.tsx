@@ -2,41 +2,42 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Flame, Building2, Factory, Warehouse, HardHat, Truck } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const services = [
     {
-      icon: <Building2 className="h-8 w-8 text-blue-600" />,
+      icon: <Building2 className="h-8 w-8 text-primary" />,
       title: "Structural Steel Treatment",
       description: "Comprehensive flameproofing for structural steel components, beams, and frameworks to meet safety regulations.",
       features: ["SABS 1186 compliant", "Interior & exterior applications", "Long-lasting protection"]
     },
     {
-      icon: <Factory className="h-8 w-8 text-blue-600" />,
+      icon: <Factory className="h-8 w-8 text-primary" />,
       title: "Industrial Fabric Treatment",
       description: "Fire retardant treatment for curtains, drapes, and fabric installations in industrial settings.",
       features: ["Washable treatments", "Various fabric types", "Custom applications"]
     },
     {
-      icon: <Warehouse className="h-8 w-8 text-blue-600" />,
+      icon: <Warehouse className="h-8 w-8 text-primary" />,
       title: "Timber & Wood Treatment",
       description: "Professional flame retardant application for wooden structures, panels, and decorative elements.",
       features: ["Penetrating treatments", "Surface coatings", "Natural wood preservation"]
     },
     {
-      icon: <HardHat className="h-8 w-8 text-blue-600" />,
+      icon: <HardHat className="h-8 w-8 text-primary" />,
       title: "Safety Consulting",
       description: "Expert advice on fire safety compliance and flameproofing requirements for your specific industry.",
       features: ["Compliance audits", "Safety planning", "Regulatory guidance"]
     },
     {
-      icon: <Truck className="h-8 w-8 text-blue-600" />,
+      icon: <Truck className="h-8 w-8 text-primary" />,
       title: "On-Site Services",
       description: "Mobile flameproofing services bringing professional treatment directly to your location.",
       features: ["Nationwide coverage", "Minimal disruption", "Flexible scheduling"]
     },
     {
-      icon: <Flame className="h-8 w-8 text-blue-600" />,
+      icon: <Flame className="h-8 w-8 text-primary" />,
       title: "Fire Testing & Certification",
       description: "Comprehensive fire testing services and certification documentation for compliance requirements.",
       features: ["SABS testing", "Compliance certificates", "Quality assurance"]
@@ -69,12 +70,16 @@ const Services = () => {
                 <ul className="space-y-2 mb-6">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center text-sm text-gray-600">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
                       {feature}
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full">Learn More</Button>
+                <Link to="/contact">
+                  <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-white">
+                    Get Quote
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}

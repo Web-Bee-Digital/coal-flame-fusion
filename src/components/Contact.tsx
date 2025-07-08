@@ -66,7 +66,7 @@ const Contact = () => {
                     className="min-h-[120px]"
                   />
                 </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-3">
+                <Button className="w-full bg-primary hover:bg-primary/90 text-lg py-3">
                   Send Quote Request
                 </Button>
               </CardContent>
@@ -80,7 +80,7 @@ const Contact = () => {
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <Phone className="h-6 w-6 text-blue-600 mt-1" />
+                  <Phone className="h-6 w-6 text-primary mt-1" />
                   <div>
                     <h4 className="font-semibold">Phone</h4>
                     <p className="text-gray-600">011 422 3832</p>
@@ -88,7 +88,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Mail className="h-6 w-6 text-blue-600 mt-1" />
+                  <Mail className="h-6 w-6 text-primary mt-1" />
                   <div>
                     <h4 className="font-semibold">Email</h4>
                     <p className="text-gray-600">info@elginflameproofing.co.za</p>
@@ -96,7 +96,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <MapPin className="h-6 w-6 text-blue-600 mt-1" />
+                  <MapPin className="h-6 w-6 text-primary mt-1" />
                   <div>
                     <h4 className="font-semibold">Service Area</h4>
                     <p className="text-gray-600">Johannesburg & Surrounding Areas</p>
@@ -104,7 +104,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Clock className="h-6 w-6 text-blue-600 mt-1" />
+                  <Clock className="h-6 w-6 text-primary mt-1" />
                   <div>
                     <h4 className="font-semibold">Business Hours</h4>
                     <p className="text-gray-600">Mon-Fri: 8:00 AM - 5:00 PM</p>
@@ -115,13 +115,13 @@ const Contact = () => {
               </CardContent>
             </Card>
             
-            <Card className="shadow-lg bg-blue-50 border-blue-200">
+            <Card className="shadow-lg bg-primary/5 border-primary/20">
               <CardContent className="p-6">
-                <h4 className="font-semibold text-blue-900 mb-2">Emergency Services</h4>
-                <p className="text-blue-800 text-sm mb-4">
+                <h4 className="font-semibold text-primary mb-2">Emergency Services</h4>
+                <p className="text-gray-700 text-sm mb-4">
                   Need urgent flameproofing services? We offer 24/7 emergency response for critical projects.
                 </p>
-                <Button variant="outline" className="w-full border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">
+                <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-white">
                   Call Emergency Line
                 </Button>
               </CardContent>

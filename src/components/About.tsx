@@ -13,10 +13,10 @@ const About = () => {
   ];
 
   const stats = [
-    { icon: <Calendar className="h-8 w-8 text-blue-600" />, number: "30+", label: "Years Experience" },
-    { icon: <Users className="h-8 w-8 text-blue-600" />, number: "500+", label: "Projects Completed" },
-    { icon: <Trophy className="h-8 w-8 text-blue-600" />, number: "100%", label: "SABS Compliant" },
-    { icon: <CheckCircle className="h-8 w-8 text-blue-600" />, number: "24/7", label: "Support Available" }
+    { icon: <Calendar className="h-8 w-8 text-primary" />, number: "30+", label: "Years Experience" },
+    { icon: <Users className="h-8 w-8 text-primary" />, number: "500+", label: "Projects Completed" },
+    { icon: <Trophy className="h-8 w-8 text-primary" />, number: "100%", label: "SABS Compliant" },
+    { icon: <CheckCircle className="h-8 w-8 text-primary" />, number: "24/7", label: "Support Available" }
   ];
 
   return (
@@ -24,7 +24,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <Badge className="mb-4 bg-blue-100 text-blue-800">About Elgin Flameproofing</Badge>
+            <Badge className="mb-4 bg-primary/10 text-primary">About Elgin Flameproofing</Badge>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
               Three Decades of Fire Protection Excellence
             </h2>
@@ -41,7 +41,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-4">
               {achievements.map((achievement, index) => (
                 <div key={index} className="flex items-center space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
                   <span className="text-gray-700">{achievement}</span>
                 </div>
               ))}

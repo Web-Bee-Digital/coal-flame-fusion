@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -60,6 +59,9 @@ const Header = () => {
               </Link>
               <Link to="/contact" className="text-gray-600 hover:text-primary transition-colors font-medium">
                 Contact
+              </Link>
+              <Link to="/products" className="text-gray-600 hover:text-primary transition-colors font-medium">
+                Products
               </Link>
             </nav>
 

@@ -34,7 +34,7 @@ const ProductDetails = () => {
 
   const product = {
     id,
-    name: "Flameproof Coating",
+    name: "Inyathi Tractor",
     description: "High-quality flameproof coating for industrial use.",
     features: ["Durable and reliable", "Complies with safety standards", "Easy to apply"],
   };

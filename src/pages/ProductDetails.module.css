@@ -1,0 +1,6 @@
+.product-features-list {
+  margin-bottom: 1.5rem;
+  /* mb-6 equivalent */
+  list-style-type: disc;
+  list-style-position: outside;
+}

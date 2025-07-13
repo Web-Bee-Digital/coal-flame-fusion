@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "name": "Inyathi Tractor",
+    "slug": "inyathi-tractor",
+    "description": "High-quality flameproof coating for industrial use.",
+    "details": [
+      {
+        "title": "Flameproof Electrical Systems",
+        "features": [
+          "Hytronic Lights",
+          "Hytronic Sirens",
+          "Hytronic Hour Meter",
+          "Certification: MASC MS/21-2420X",
+          "MAE Dual Output Alternator",
+          "Certification: M-XPL_15.0216X (IECEX)",
+          "Certification: SIRA 02ATEX1255(ATEX), IP68",
+          "John Ratcliffe Flameproof Camera System",
+          "Certification: MASC M/21-2689X",
+          "Certification: MASC M/21-2843X",
+          "Certification: MASC M/19-2126X"
+        ]
+      },
+      {
+        "title": "Front Tyre Size and Type",
+        "features": [
+          "18\" type BKT MP 567 2245 kg/tyre",
+          "Foam Filled",
+          "Distance Between Wheels - 2600mm"
+        ]
+      },
+      {
+        "title": "Rear Tyre Size and Type",
+        "features": [
+          "24\" type BKT TR 459 2900 kg/tyre",
+          "Foam Filled",
+          "Distance Between Wheels - 2600mm"
+        ]
+      },
+      {
+        "title": "Certifications",
+        "features": [
+          "ROPS & FOPS Certification - Doc Ref No : 1924 Date - 10/06/2019",
+          "PTO Shaft Certification - Doc Ref : Report No : KEC0199",
+          "Spartan 750 Crane Platform Certification - Doc Ref No : 2118 Date - 20/04/2021",
+          "Shrouded Tow Hitch Certification - Doc Ref No : UTH 0001 Date - 20/07/2021",
+          "Pitbull S9000 Crane Platform Certification - Doc Ref No : Q2012 B - ELG Date - 20/07/2021",
+          "Elgin Towhitch ( Collison Type ) Certification - Doc Ref No : 1945 Elgin Date - 09/11/2020",
+          "Elgin Towhitch ( Ball Type ) Certification - Doc Ref No : 1920 Elgin Date - 21/05/2019",
+          "Tractor Drawbar Pull Test Certification - Test Report No : 1920 Gerotek",
+          "Brake Test Sans 1589: 1994 Certification - Test Report No : 15237 Gerotek",
+          "Risk Assessment Report - Reference No : E0001 / 2018",
+          "Flameproof Certifrication: M-XPL/18.0592 (D325) / 01 Jun 2028"
+        ]
+      },
+      {
+        "title": "Engine",
+        "features": [
+          "Perkins - 1106D-70TA",
+          "4 Stroke Diesel - Direct Injection",
+          "Cubic Capacity: 7.01 Litres",
+          "672 Nm @ 1100RPM",
+          "112 kW @ 2200RPM",
+          "Cylinder configuration: Inline 6",
+          "Flameproof Certifrication: M-XPL/18.0592 (D325) / 01 Jun 2028"
+        ]
+      }
+    ],
+    "image": "/parts-test.png",
+    "iframe": "https://tour.panoee.net/iframe/685965e46c3383e053e55af0",
+    "brochure": "/brochures/inyathi-tractor.pdf"
+  }
+]

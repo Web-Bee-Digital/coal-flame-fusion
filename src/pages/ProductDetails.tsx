@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 
 interface Product {
   name: string;
@@ -132,18 +133,20 @@ const ProductDetailsPage = () => {
               )}
               <div dangerouslySetInnerHTML={{ __html: product.content }} />
               {product.details && product.details.length > 0 && (
-                <div className="mt-6 space-y-6">
+                <Accordion type="single" collapsible className="mt-6 space-y-6">
                   {product.details.map((detail, idx) => (
-                    <div key={idx}>
-                      <h2 className="font-semibold mb-1">{detail.title}</h2>
-                      <ul className="list-disc list-inside text-gray-600">
-                        {detail.features.map((feature, fidx) => (
-                          <li key={fidx}>{feature}</li>
-                        ))}
-                      </ul>
-                    </div>
+                    <AccordionItem key={idx} value={`item-${idx}`}>
+                      <AccordionTrigger>{detail.title}</AccordionTrigger>
+                      <AccordionContent>
+                        <ul className="list-disc list-inside text-gray-600">
+                          {detail.features.map((feature, fidx) => (
+                            <li key={fidx}>{feature}</li>
+                          ))}
+                        </ul>
+                      </AccordionContent>
+                    </AccordionItem>
                   ))}
-                </div>
+                </Accordion>
               )}
               {product.specs && product.specs.length > 0 && (
                 <div className="mt-4">

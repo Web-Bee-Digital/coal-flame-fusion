@@ -21,5 +21,6 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     outDir: "dist", // Ensure the output directory is set to "dist"
+    emptyOutDir: true, // Clean the output directory before building
   },
 }));
